@@ -14,7 +14,7 @@
 <body>
   <header class="header">
     <div class="logo">
-      <h1 class="tituloPrincipal">Projeto LIBRAS</h1>
+      <h1 class="tituloPrincipal">Inclutec</h1>
     </div>
     <span class="space"></span>
     <!-- Navegação Principal -->
@@ -33,9 +33,9 @@
 
     <section class="produtos" id="produtos">
       <span class="prodTexto">
-        <h1>Totens para Totens</h1>
+        <h1>Totens para Acessibilidade</h1>
         <p>Descubra o melhor produto para sua impantação</p>
-        <input type="button" value="Nossos Produtos" class="prodBtn" />
+        <input type="button" onclick="window.location.href='produtos.html';" value="Nossos Produtos" class="prodBtn" />
       </span>
       <img class="prodImg" src="https://placeimg.com/320/480/tech">
     </section>
@@ -45,8 +45,12 @@
     <section class="empresa" id="empresa">
       <div class="empTexto">
         <h1>A Inclutec</h1>
-        <p>Pequeno texto sobre nossa empresa</p>
-        <input type="button" value="Conheça nossa empresa" class="empBtn" />
+        <p>É uma empresa de tecnologia associada à comunicação, com o intuito principal de promover inclusão e
+          acessibilidade.</p>
+          <p> Especializados na venda, aluguel e instalação de totens digitais acessíveis diretamente
+          para o público surdo.</p>
+        <input type="button" onclick="window.location.href='empresa.html';" value="Conheça nossa empresa"
+          class="empBtn" />
       </div>
       <div class="empCardWarp">
         <div class="empCard">Info 1</div>
@@ -62,57 +66,62 @@
       <div class="cliTexto">
         <h1>Nossos Clientes</h1>
       </div>
-      <div class="cliCarros"><div id="carouselSite" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselSite" data-slide-to="1"></li>
-          <li data-target="#carouselSite" data-slide-to="2"></li>
-        </ol>
+      <div class="cliCarros">
+        <div id="carouselSite" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-slide-to="1"></li>
+            <li data-target="#carouselSite" data-slide-to="2"></li>
+          </ol>
           <div class="carousel-inner">
 
             <div class="carousel-item">
 
               <p>
-                    Depoimento Persona 1:<br>
+                Depoimento Persona 1:<br>
                 "Após saber sobre a PLS 155/2017, procurei me inteirar mais sobre o assunto e as
-                 necessidades especificas das pessoas surdas, afinal nos eventos no qual promovo
-                  também é necessário que haja a inclusão delas para que possam aproveitar ao 
-                  máximo e de forma acessível. Temos usado os totens e tem sido um sucesso nos 
-                  últimos eventos, percebemos que não apenas para as pessoas surdas serem acolhidas(que isso já é de tamanha satisfação),
-                  mas também para que as pessoas que não tem acesso a aprender linguagem de sinais tenham esse contato."
+                necessidades especificas das pessoas surdas, afinal nos eventos no qual promovo
+                também é necessário que haja a inclusão delas para que possam aproveitar ao
+                máximo e de forma acessível. Temos usado os totens e tem sido um sucesso nos
+                últimos eventos, percebemos que não apenas para as pessoas surdas serem acolhidas(que isso já é de
+                tamanha satisfação),
+                mas também para que as pessoas que não tem acesso a aprender linguagem de sinais tenham esse contato."
                 <br>
-                  Benjamin Nestor - Promotor de eventos</p>
+                Benjamin Nestor - Promotor de eventos
+              </p>
 
             </div>
-            <div class="carousel-item active" >
+            <div class="carousel-item active">
 
               <p>
                 Depoimento Persona 2:<br>
-                "Em nossa rede de hospitais tínhamos dificuldade para comunicação com pessoas 
-                surdas, toda vez que precisávamos atende-los, era necessário aguardar a chamada 
-                de um funcionário em especifico para se comunicar, ou até o uso de papeis para 
+                "Em nossa rede de hospitais tínhamos dificuldade para comunicação com pessoas
+                surdas, toda vez que precisávamos atende-los, era necessário aguardar a chamada
+                de um funcionário em especifico para se comunicar, ou até o uso de papeis para
                 escrever, o que não é nada legal para o paciente que merece o melhor atendimento.
-                Após o uso dos totens percebemos uma maior satisfação no atendimento e no 
-                esclarecimento de informações necessárias, inclusive nossos funcionários sempre 
+                Após o uso dos totens percebemos uma maior satisfação no atendimento e no
+                esclarecimento de informações necessárias, inclusive nossos funcionários sempre
                 ficam alguns minutos do dia aprendendo um pouco sobre a linguagem de sinais."
                 <br>
-                Silvana Garcia - Gestora de hospital</p>
+                Silvana Garcia - Gestora de hospital
+              </p>
 
             </div>
             <div class="carousel-item">
 
               <p>
                 Depoimento Persona 3:<br>
-                "No aeroporto já usávamos o recurso de totens para deixar o atendimento mais 
-                prático e rápido, porém a questão da linguagem de sinais para acolhimento das 
+                "No aeroporto já usávamos o recurso de totens para deixar o atendimento mais
+                prático e rápido, porém a questão da linguagem de sinais para acolhimento das
                 pessoas surdas foi o que nos encantou, sempre buscamos a inclusão e acessibilidade
                 de todas as formas. Fizemos a associação das informações dos nossos totens com o de
-                linguagem de sinais, capazes de oferecer total suporte ao usuário para efetuar 
-                compras de bilhetes de passagens, informar os horários do vôos e respectivas disponibilidades 
-                de assentos, informar os intervalos entre conexões, informar os pontos de retiradas de bagagens, 
+                linguagem de sinais, capazes de oferecer total suporte ao usuário para efetuar
+                compras de bilhetes de passagens, informar os horários do vôos e respectivas disponibilidades
+                de assentos, informar os intervalos entre conexões, informar os pontos de retiradas de bagagens,
                 solicitar atendimento médico, policial e serviços de traslado."
                 <br>
-                Frederico Fialho - Representante de companhia aeréa</p>
+                Frederico Fialho - Representante de companhia aeréa
+              </p>
 
             </div>
 
@@ -127,8 +136,9 @@
             <span class="carousel-control-next-icon"></span>
             <span class="sr-only">Avançar</span>
           </a>
-        
-      </div></div>
+
+        </div>
+      </div>
     </section>
 
 
@@ -136,16 +146,16 @@
       <div class="contWarp">
         <div class="contInfo">
           <h1>Contato</h1>
-          <p><i class="icon-phone"></i>+55(55)  3030 - 3864</p>
+          <p><i class="icon-phone"></i>+55(55) 3030 - 3864</p>
           <p><i class="icon-whatsapp"></i>+55 (55) 9 9955 - 3864</p>
           <p><i class="icon-location"></i>Av. Brasil. 364, CEP- 555-30864 - Estado-BR, Brasil</p>
         </div>
         <div class="contForm">
           <form action="" id="contForm">
-              <input type="text" placeholder="Nome" class="contFormInput" ><br/>
-              <input type="text" placeholder="Email" class="contFormInput" ><br/>
-              <textarea placeholder="Texto" class="contFormInput"></textarea><br/>
-              <input type="button" value="Cadastrar" class="contBtn" />
+            <input type="text" placeholder="Nome" class="contFormInput"><br />
+            <input type="text" placeholder="Email" class="contFormInput"><br />
+            <textarea placeholder="Texto" class="contFormInput"></textarea><br />
+            <input type="button" value="Cadastrar" class="contBtn" />
           </form>
         </div>
       </div>
@@ -157,19 +167,24 @@
     <nav class="menu2">
       <ul>
         <li class="contatolt"><a href="https://soulcodeacademy.org/"><i class="icon-home"></i>SoulCode</a></li>
-        <li class="contatolt"><a href="https://www.instagram.com/soulcodeacademy/"><i class="icon-instagram"></i>Instagram</a></li>
-        <li class="contatolt"><a href="https://www.facebook.com/SoulCodeAcademy"><i class="icon-facebook"></i>Facebook</a></li>
+        <li class="contatolt"><a href="https://www.instagram.com/soulcodeacademy/"><i
+              class="icon-instagram"></i>Instagram</a></li>
+        <li class="contatolt"><a href="https://www.facebook.com/SoulCodeAcademy"><i
+              class="icon-facebook"></i>Facebook</a></li>
         <li class="contatolt"><a href="https://twitter.com/SoulCodeAcademy"><i class="icon-twitter"></i>Twitter</a></li>
-        <li class="contatolt"><a href="https://www.linkedin.com/company/soulcodebrasil/"><i class="icon-linkedin"></i>LinkedIn</a></li>
+        <li class="contatolt"><a href="https://www.linkedin.com/company/soulcodebrasil/"><i
+              class="icon-linkedin"></i>LinkedIn</a></li>
       </ul>
     </nav>
-    <div class="info"><p>Todos os direitos reservados blablablabla</p></div>
+    <div class="info">
+      <p>Inclutec &copy;2022 Todos os direitos reservados.</p>
+    </div>
     <div class="newsletter">
       <p>Fique por dentro das novidades!</p>
       <form action="" id="contForm">
-        <input type="text" placeholder="Email" class="newsFormInput" ><br/>
-           <input type="button" value="Assinar" class="contBtn" />
-    </form>
+        <input type="text" placeholder="Email" class="newsFormInput"><br />
+        <input type="button" value="Assinar" class="contBtn" />
+      </form>
     </div>
   </footer>
 </body>
