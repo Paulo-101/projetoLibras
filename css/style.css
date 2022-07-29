@@ -459,18 +459,4 @@ main h1 {
     outline: 0;
 }
 
-/* CSS do Carrossel */
-.carousel-inner{
-    height: 19vh;
-    display: flex;
-    background-color: aqua;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-}
 
-.carousel-item p{
-    text-align: center;
-    text-transform: capitalize;
-}
