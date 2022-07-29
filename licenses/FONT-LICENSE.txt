@@ -1,6 +1,5 @@
 Font license info
 
-
 ## Typicons
 
    (c) Stephen Hutchings 2012
@@ -8,7 +7,6 @@ Font license info
    Author:    Stephen Hutchings
    License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://typicons.com/
-
 
 ## Entypo
 
@@ -18,4 +16,18 @@ Font license info
    License:   SIL (http://scripts.sil.org/OFL)
    Homepage:  http://www.entypo.com
 
+## Salma Pro
 
+   Copyright (C) 2022 by Alifinart
+
+   Author:    Alifinart
+   License:   Freeware
+   Homepage:  https://alifinart.gumroad.com/l/salma-pro
+
+## Wigners Friend Font
+
+   Copyright (C) 2021 by PJM Homebrew Fonts
+
+   Author:    PJM Homebrew Fonts
+   License:   SIL Open Font License (OFL)
+   Homepage:  https://www.fontspace.com/wigners-friend-font-f59545
