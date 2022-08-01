@@ -203,6 +203,8 @@ main h1 {
 
 .prodImg {
     grid-area: prodImg;
+    border-radius: 30px;
+    transform: skew(-12deg, -12deg);
 }
 
 .prodBtn {
