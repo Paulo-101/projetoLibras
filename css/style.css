@@ -562,6 +562,20 @@ main h1 {
     background-color: var(--btnHover);
 }
 
+.siteConteudo{
+min-height: 300px;
+padding: 10% 20%;
+}
+
+.siteConteudo h1{
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 58px;
+    margin-top: 5px;
+    color: var(--principal);
+    text-align: center;
+    }
+
 /* FOOTER */
 .footer {
     background-color: var(--principal);
